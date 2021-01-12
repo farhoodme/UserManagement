@@ -5,7 +5,9 @@ Simple RESTful API for user management
 Project developed based on **Domain Driven Design** patterns and **SOLID** principles which consists of three fundamental layers:
 
 **Domain Layer:** Includes business objects and business rules.
+
 **Application Layer:** Mediates between the Http Api (or Presentation) and Domain Layers. This layer perform specific application tasks using business objects and implements the application logic.
+
 **Infrastructure Layer:** Provides generic technical capabilities that support higher layers mostly using libraries.
 
 DDD mostly interest in the **Domain** and the **Application** layers
